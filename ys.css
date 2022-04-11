@@ -1,5 +1,5 @@
 body {
-    background-image: url("/imges/aab.jpeg");
+    background-image: url("aab.jpeg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
