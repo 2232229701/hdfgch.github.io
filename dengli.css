@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/1342.jpeg);
+    float: left;
+    background-size: cover;
+}
+.kuang{
+    width: 400px;
+    height: 280px;
+    background-color: aliceblue;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.username,.password{
+    width: 250px;
+    height: 40px;
+    margin-bottom: 15px;
+    margin-left: 75px;
+    border: none;
+    outline: none;
+    background-color: aliceblue;
+    border-bottom: solid 1px rgb(163, 163, 156);
+    padding: 0px 0px 0px 0px;
+}
+.username{
+    margin-top: 50px;
+}
+.denglu{
+    width: 250px;
+    height: 40px;
+    margin-left: 75px;
+    margin-top: 10px;
+    background: #4892ff;
+    border: #326dcc;
+    color: #fff;
+    font-size: 16px;
+}
+.denglu:hover,.denglu:active{
+    background-color: #0f4ead;
+}
+.wj{
+    text-decoration: none;
+    margin-left: 75px;
+    font-size: 10px;
+    color: #5a9cff;
+}
+.zc{
+    text-decoration: none;
+    float: right;
+    font-size: 10px;
+    color: #5a9cff;
+    margin-right: 75px;
+    margin-top: 4px;
+}
