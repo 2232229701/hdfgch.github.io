@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(218, 213, 213);
+}
+.da{
+    width: 200px;
+    height: 100%;
+    /* background-color: aliceblue; */
+    margin: 0 auto;
+    margin-top: 250px;
+}
+.xz{
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+    border: solid 1px #3083ff;
+    background-color: #3083ff;
+    color: aliceblue;
+    font-size: 20px;
+}
+.xz:hover,.xz:active{
+    background-color: #1d64cf;
+}
