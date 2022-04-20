@@ -1,14 +1,18 @@
 body{
+    width: 100%;
+    height: 100%;
     background-color: rgb(218, 213, 213);
+    margin: 0;
+    padding: 0;
 }
 .da{
-    width: 200px;
+    width: 1200px;
     height: 100%;
     /* background-color: aliceblue; */
-    margin: 0 auto;
-    margin-top: 250px;
+
 }
 .xz{
+    float: left;
     width: 200px;
     height: 60px;
     border-radius: 15px;
@@ -16,7 +20,19 @@ body{
     background-color: #3083ff;
     color: aliceblue;
     font-size: 20px;
+    margin-top: 250px;
+    margin-left: 500px;
 }
 .xz:hover,.xz:active{
     background-color: #1d64cf;
+}
+.sp{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -99;
+    right: 0;
+    bottom: 0;
+    object-position: center;
+    object-fit: cover;
 }
