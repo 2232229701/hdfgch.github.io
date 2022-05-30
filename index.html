@@ -177,7 +177,7 @@
             } else {
                 //开始  
                 //先判断数组中人数是否已达到3人  
-                if (luckers.length < 2) {
+                if (luckers.length < 10) {
                     //启动抽取每隔0.05秒刷新界面内容  
                     intavlflag = setInterval(begin, 50);
                     // $('bgm').src = 'source/bgm.mp3';
@@ -186,7 +186,7 @@
                     //将标志位设置为已启动  
                     isBegin = true;
                 } else {
-                    alert('这一组人员已满，请抽取下一组!');
+//                     alert('这一组人员已满，请抽取下一组!');
                 }
             }
         }
